@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "Study-Diary"]
+	url = https://github.com/lorranmcm/iugu.git
+	fetch = +refs/heads/*:refs/remotes/Study-Diary/*
+[remote "StudyDiary"]
+	url = https://github.com/lorranmcm/iugu.git
+	fetch = +refs/heads/*:refs/remotes/StudyDiary/*
