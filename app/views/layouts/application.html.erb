@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>StudyDiary</title>
+    <title>Diário de Estudos - iugu for devs</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -10,8 +10,10 @@
   </head>
 
   <body>
+    <%= render 'shared/nav' %>
     <div class="container">
       <%= yield %>
     </div>
+    <%= render 'footer' %>
   </body>
 </html>

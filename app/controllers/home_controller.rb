@@ -1,11 +1,8 @@
 class HomeController < ApplicationController
 
-    def index
-        @study_items = []
-        @study_items << StudyItem.new(title: "MVC")
-        @study_items << StudyItem.new(title: "Saas")
-        @study_items << StudyItem.new(title: "Rails")
-        # render 'index'
-    end
-
+  def index
+    # codigo, acessar banco de dados etc
+    # render 'lista' => por padrao o Rails já vai procurar essa view
+    @study_items = StudyItem.all()
+  end
 end
